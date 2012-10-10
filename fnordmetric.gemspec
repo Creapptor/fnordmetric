@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rack"
   s.add_dependency "rack-test"
   s.add_dependency "yajl-ruby"
-  s.add_dependency "thin", "~> 1.3.0"
+  s.add_dependency "thin", ">= 1.3.0"
   s.add_dependency "activesupport"
 
   s.add_development_dependency "delorean"
